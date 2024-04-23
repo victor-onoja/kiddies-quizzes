@@ -1,0 +1,82 @@
+[
+    {
+        "id": 0,
+        "name": "amethyst",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1713200311/amethyst_muylup.jpg"
+    },
+    {
+        "id": 1,
+        "name": "rubies",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1713200316/rubies_h7fk31.jpg"
+    },
+    {
+        "id": 2,
+        "name": "clear-crystal",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1713200312/clear_crystal_ses9xw.jpg"
+    },
+    {
+        "id": 3,
+        "name": "gold",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1713200316/gold_pbx1ng.jpg"
+    },
+    {
+        "id": 4,
+        "name": "marbles",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1713200318/marbles_gsfsvh.jpg"
+    },
+    {
+        "id": 5,
+        "name": "beads",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1713200312/beads_b2vrpp.jpg"
+    },
+    {
+        "id": 6,
+        "name": "blue-topaz",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1713200312/blue_topaz_lmffl4.jpg"
+    },
+    {
+        "id": 7,
+        "name": "bracelets",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1713200314/bracelets_zcgg19.jpg"
+    },
+    {
+        "id": 8,
+        "name": "green-gemstone",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1713200314/green_gemstone_wof25v.jpg"
+    },
+    {
+        "id": 9,
+        "name": "white-bracelet",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1713200317/white_bracelet_rlapog.jpg"
+    },
+    {
+        "id": 10,
+        "name": "precious-stone",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1713200315/precious_stone_cay24e.jpg"
+    },
+    {
+        "id": 11,
+        "name": "crystal",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1713200312/crystal_fvc4bv.jpg"
+    },
+    {
+        "id": 12,
+        "name": "diamond",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1713200313/diamond_wty05c.jpg"
+    },
+    {
+        "id": 13,
+        "name": "rose-quart",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1713200316/rose_quart_ncoyju.jpg"
+    },
+    {
+        "id": 14,
+        "name": "gemstones",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1713200315/gemstones_oda5rm.jpg"
+    },
+    {
+        "id": 15,
+        "name": "quartz-crystal",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1713200316/quartz_crystal_ghckpk.jpg"
+    }
+]

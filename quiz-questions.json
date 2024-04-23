@@ -1,0 +1,27 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "options": ["Paris", "London", "Berlin", "Rome"],
+        "correctAnswer": "Paris"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Mars", "Jupiter", "Venus", "Saturn"],
+        "correctAnswer": "Mars"
+    },
+    {
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "options": ["Harper Lee", "Ernest Hemingway", "F. Scott Fitzgerald", "J.K. Rowling"],
+        "correctAnswer": "Harper Lee"
+    },
+    {
+        "question": "What is the chemical symbol for water?",
+        "options": ["H2O", "CO2", "O2", "CH4"],
+        "correctAnswer": "H2O"
+    },
+    {
+        "question": "What is the tallest mammal?",
+        "options": ["Giraffe", "Elephant", "Horse", "Kangaroo"],
+        "correctAnswer": "Giraffe"
+    }
+]

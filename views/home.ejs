@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|Flavors">
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+        <div class="logout-btn">
+            <a href="/">Logout</a>
+        </div>
+      <h1>Welcome to the Quiz!</h1>
+      <% if (resultMessage) { %>
+      <p><%= resultMessage %></p>
+      <% } %>
+      <form action="/home" method="POST">
+        <% quizQuestions.forEach((question, index) => { %>
+        <h3><%= index + 1 %>. <%= question.question %></h3>
+        <% question.options.forEach(option => { %>
+        <input
+          type="radio"
+          id="<%= option %>"
+          name="answer_<%= index %>"
+          value="<%= option %>"
+        />
+        <label for="<%= option %>"><%= option %></label><br />
+        <% }) %>
+        <br />
+        <% }) %>
+        <button type="submit">Submit Quiz</button>
+      </form>
+    </div>
+  </body>
+</html>

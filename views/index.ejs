@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kiddies Quizzes</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|Flavors"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="index-container">
+      <div class="login-section">
+        <h1>Welcome to Kiddies Quizzes</h1>
+        <% if (errorMessage) { %>
+        <p style="color: red"><%= errorMessage %></p>
+        <% } %>
+        <p>
+          This site is for kids to answer quizzes, earn points, and win prizes
+          weekly!
+        </p>
+        <form action="/login" method="POST">
+          <label for="username">Enter Your Name to Login:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            required
+          /><br /><br />
+          <button type="submit">Login</button>
+        </form>
+        <p>Forgot your password? Reset your account below:</p>
+
+        <a href="/forgot_password"> <button>Reset Account</button></a>
+      </div>
+      <div class="register-section">
+        <h2>Don't have an account yet?</h2>
+        <p>Register now and start answering quizzes!</p>
+        <a href="/register"><button id="startBtn">Register</button></a>
+      </div>
+    </div>
+  </body>
+</html>

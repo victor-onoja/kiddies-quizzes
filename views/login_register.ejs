@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Check - Kiddies Quizzes</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|Flavors">
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome back, <%= username %>!</h1>
+      <p>
+        To complete the login process, select the 4 jewels you stored with your
+        guardians.
+      </p>
+
+      <h2>Your Guardians:</h2>
+      <div class="selected-guardians">
+        <% guardians.forEach(guardian => { %>
+        <div class="guardian">
+          <img src="<%= guardian.image %>" alt="<%= guardian.name %>" />
+          <p><%= guardian.name %></p>
+        </div>
+        <% }); %>
+      </div>
+
+      <h2>Select your 4 Jewels:</h2>
+      <form action="/login_two" method="POST">
+        <div class="jewel-selection">
+          <!-- Jewels will be dynamically added here -->
+        </div>
+        <input type="hidden" id="jewels" name="jewels" value="">
+        <button id="nextBtn" type="submit">Next</button>
+      </form>
+    </div>
+    <script src="/js/script_three.js"></script>
+  </body>
+</html>

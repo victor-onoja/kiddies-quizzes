@@ -1,0 +1,62 @@
+[
+    {
+        "id": 0,
+        "name": "Rita",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1712525499/Rita_k3xqk8.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Eleven",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1712525496/eleven_e2cvli.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Ducko",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1712525476/ducko_t2ii63.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Stick",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1712525489/stick_zpwb3k.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Tinny",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1712525500/tinny_d18feq.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Gumbo",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1712525483/gumbo_l0ddqt.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Joker",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1712525486/joker_nqnr9u.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Luigi",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1712525484/luigi_euhkta.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Doggo",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1712525499/doggo_jtc3sl.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Homelander",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1712525493/homelander_os8z2o.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Em",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1712525485/em_evsvv7.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Yoda",
+        "image": "https://res.cloudinary.com/dati00h7i/image/upload/v1712525586/yoda_iafvhl.jpg"
+    }
+]
